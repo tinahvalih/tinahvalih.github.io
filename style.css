@@ -5,8 +5,8 @@ body {
   overflow-x: hidden;
 }
 
-html {
-  overflow-x: hidden;
+html {/* 
+  overflow-x: hidden; */
   width: 100%;
 }
 
@@ -134,6 +134,7 @@ html {
 
 /* DIVIDER */
 
+
 .ribbons {
   position: relative;
   margin-top: 100px;
@@ -157,9 +158,9 @@ html {
 .firstrib span {
   font-family: ExtendedFont;
   font-size: 64px;
-  animation-name: rib;
+  animation-name: rib;/* 
   animation-timeline: view();
-  animation-range: 0% cover 400%;
+  animation-range: 0% cover 400%; */
   white-space: nowrap;
   color: white;
 }
@@ -189,9 +190,9 @@ html {
 .backrib span {
   font-family: ExtendedFont;
   font-size: 64px;
-  animation-name: ribb;
+  animation-name: ribb;/* 
   animation-timeline: view();
-  animation-range: 0% cover 400%;
+  animation-range: 0% cover 400%; */
   white-space: nowrap;
   color: white;
 }
