@@ -3,11 +3,14 @@
 body {
   font-family: "Bricolage Grotesque", sans-serif;
   overflow-x: hidden;
+  width: 100%;
+  position: relative;
 }
 
-html {/* 
-  overflow-x: hidden; */
+html {
+  overflow-x: hidden;
   width: 100%;
+  position: relative;
 }
 
 @font-face {
@@ -59,8 +62,9 @@ html {/*
 /* Navabar */
 
 .display-1 {
-  font-family: "MainFont";
+  font-family: "Bricolage Grotesque", sans-serif;
   font-size: 140px;
+  font-weight: 800;
   transition: all;
   color: #334155;
 }
@@ -134,6 +138,9 @@ html {/*
 
 /* DIVIDER */
 
+.divider{
+  width: 100vw;
+}
 
 .ribbons {
   position: relative;
