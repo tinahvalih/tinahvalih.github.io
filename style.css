@@ -1,16 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap");
 
-body {
+html, body {
   font-family: "Bricolage Grotesque", sans-serif;
-  width: 100%;
+  width: 100vw;
   position: relative;
   scroll-behavior: smooth;
   overflow-x: hidden;
-}
-
-html {
-  width: 100%;
-  position: relative;
 }
 
 @font-face {
@@ -39,7 +34,13 @@ html {
 .navbar-toggler {
   border: none;
   padding: 0.5rem;
+  position: relative;
+  z-index: 999;
 
+}
+
+.offcanvas-end {
+  max-width: 80%;
 }
 
 .navbar-toggler-icon{
@@ -70,7 +71,7 @@ html {
 }
 
 .display-4 {
-  font-family: "ButtonFont";
+  font-family: "Buttonfont", 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   margin-bottom: -8px;
   color: #334155;
 }
@@ -84,7 +85,8 @@ html {
 }
 
 .btn {
-  font-family: "ButtonFont";
+  font-family: "bricolage grotesque", 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 900;
   border: none;
   transition: all 0.2s ease-in-out;
 }

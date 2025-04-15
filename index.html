@@ -67,8 +67,8 @@
 
     <!-- Debut Première section -->
 
-    <div class="container-fluid position-relative">
-        <div class="container mx-auto" style="margin-top: 200px;">
+    <div class="container-fluid">
+        <div class="container mx-auto" style="margin-top: 200px; position: relative;">
             <div>
                 <div class="lead fw-bold">Bonjour, je suis Tinah</div>
 
@@ -116,26 +116,29 @@
                         </div>
                     </div>
     
-                </div>
+                </div>  
 
             </div>
-        </div>
 
-        <div class="background" style="position: absolute; ;top: 0;  left: -500px; z-index: -10; opacity: 1; width: 100%; overflow: hidden;">
-            <img src="assets/dotsgridbg.svg" alt="Tinah Valih background" class="img-fluid">
-        </div>    
+            <div class="background" style="position: absolute; ;top: 0;  left: -500px; z-index: -10; opacity: 1; width: 100%; overflow: hidden; max-width: 100vw;">
+                <img src="assets/dotsgridbg.svg" alt="Tinah Valih background" class="img-fluid">
+            </div>  
+        
+        </div>
     </div>
 
     <!-- Divider -->
 
-    <img src="assets/divider_ruban.svg" alt="tinahvalih divider" class="img-fluid">
+    <div class="container-fluid p-0 text-center">
+        <img src="assets/divider_ruban.svg" alt="tinahvalih divider" class="img-fluid w-100">
+    </div>
 
 
     <!-- A propos -->
 
     <div class="container-fluid mt-5 pt-5 position-relative">
 
-        <div class="container">
+        <div class="container" style="position: relative;">
 
             <div class="row">
 
@@ -250,10 +253,10 @@
 
             </div>
 
-        </div>
+            <div class="background position-absolute" style="z-index: -10 ;top: -200px; right: -1000px;">
+                <img src="assets/dotsgridbg.svg" alt="">
+            </div>
 
-        <div class="background position-absolute" style="z-index: -10 ;top: -200px; right: -1000px;">
-            <img src="assets/dotsgridbg.svg" alt="">
         </div>
 
     </div>
@@ -368,8 +371,10 @@
 
     <div class="marquee-container">
         <div class="marquee">
-            <span>Creating Visual Masterpieces <span> <img src=assets/star.svg alt="" /> </span> Transforming Ideas into Art</span>
-            <span>Creating Visual Masterpieces <span> <img src=assets/star.svg alt="" /> </span> Transforming Ideas into Art</span>
+            <div class="container">
+                <span>Creating Visual Masterpieces <span> <img src=assets/star.svg alt="" /> </span> Transforming Ideas into Art</span>
+                <span>Creating Visual Masterpieces <span> <img src=assets/star.svg alt="" /> </span> Transforming Ideas into Art</span>
+            </div>
         </div>
     </div>
 
@@ -476,7 +481,7 @@
     <!-- Client Logo Section -->
 
     <div class="container-fluid mt-5 pt-5 position-relative" id="Clients">
-        <div class="container-fluid">
+        <div class="container">
             <h1 class="text-center display-2">Eux, ils m'ont faits <span style="color: #9444F1;">confiance</span></h1>
             <div class="logos">
                 <div class="logos-slide">
