@@ -3,13 +3,10 @@
 html, body {
   font-family: "Bricolage Grotesque", sans-serif;
   width: 100vw;
-  position: relative;
   scroll-behavior: smooth;
-}
-
-body{
   overflow-x: hidden;
 }
+
 
 @font-face {
   font-family: "MainFont";
