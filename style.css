@@ -2,13 +2,12 @@
 
 body {
   font-family: "Bricolage Grotesque", sans-serif;
-  overflow-x: hidden;
   width: 100%;
   position: relative;
+  scroll-behavior: smooth;
 }
 
 html {
-  overflow-x: hidden;
   width: 100%;
   position: relative;
 }
@@ -129,88 +128,6 @@ html {
 @media screen and (max-width: 992px) {
   .display-1 {
     font-size: 100px;
-  }
-
-  .ribbons {
-    transform: scale(0.5);
-  }
-}
-
-/* DIVIDER */
-
-.divider{
-  width: 100vw;
-}
-
-.ribbons {
-  position: relative;
-  margin-top: 100px;
-  margin-bottom: 200px;
-  transform: scale(1.2);
-}
-
-.firstrib {
-  width: 100vw;
-  position: absolute;
-  display: flex;
-  gap: 16px;
-  align-items: center;
-  background-color: #9444f1;
-  padding: 24px 40px;
-  transform: rotate(-2deg);
-  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.5);
-  white-space: nowrap;
-}
-
-.firstrib span {
-  font-family: ExtendedFont;
-  font-size: 64px;
-  animation-name: rib;/* 
-  animation-timeline: view();
-  animation-range: 0% cover 400%; */
-  white-space: nowrap;
-  color: white;
-}
-
-@keyframes rib {
-  from {
-    transform: translateX(0);
-  }
-
-  to {
-    transform: translateX(-1920px);
-  }
-}
-
-.backrib {
-  width: 100vw;
-  position: absolute;
-  display: flex;
-  justify-content: flex-end;
-  gap: 16px;
-  background-color: #334155;
-  padding: 24px 40px;
-  transform: rotate(3deg);
-  white-space: nowrap;
-}
-
-.backrib span {
-  font-family: ExtendedFont;
-  font-size: 64px;
-  animation-name: ribb;/* 
-  animation-timeline: view();
-  animation-range: 0% cover 400%; */
-  white-space: nowrap;
-  color: white;
-}
-
-@keyframes ribb {
-  from {
-    transform: translateX(0px);
-  }
-
-  to {
-    transform: translateX(1920px);
   }
 }
 
