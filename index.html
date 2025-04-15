@@ -9,7 +9,21 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+
+    <!-- Loading Screen -->
+
+    <div class="loading-screen d-flex justify-content-center align-items-center position-fixed w-100 h-100" style="background-color: #6c5ce7; z-index: 9999;">
+        <div class="spinner-border text-light" role="status">
+            <span class="visually-hidden">Chargement...</span>
+        </div>
+    </div>
+
+    <script>
+        window.addEventListener("load", function(){
+            document.querySelector(".loading-screen").classList.add("d-none");
+        });
+    </script>
+
     <!-- Barre de Navigation -->
 
     <nav class="navbar navbar-expand-lg navbar-custom fixed-top py-4" style="background-color: white;">
