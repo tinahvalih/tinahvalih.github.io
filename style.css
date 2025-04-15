@@ -5,6 +5,7 @@ body {
   width: 100%;
   position: relative;
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 html {
@@ -268,7 +269,7 @@ html {
   }
   
   .marquee {
-    font-size: 60px;
+    font-size: 40px;
   }
 }
 
