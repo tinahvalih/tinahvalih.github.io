@@ -1,0 +1,99 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url("/wp-content/plugins/qi-addons-for-elementor/inc/admin/inc/admin-pages/assets/fonts/Roboto-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Heebo';
+  src: url("/wp-content/plugins/qi-addons-for-elementor/inc/admin/inc/admin-pages/assets/fonts/Heebo-Regular.ttf") format("truetype");
+  font-weight: 500;
+}
+
+.qodef-admin-notice {
+  position: relative;
+  background-color: #fff;
+  padding: 0;
+  border: none;
+}
+
+.qodef-admin-notice p {
+  margin: 0;
+  padding: 0;
+}
+
+.qodef-admin-notice .qodef-admin-notice-inner {
+  padding: 44px 22% 55px 42px;
+}
+
+.qodef-admin-notice .qodef-admin-notice-description {
+  font-family: Roboto, sans-serif;
+  font-size: 15px;
+  line-height: 1.6em;
+}
+
+.qodef-admin-notice .qodef-admin-notice-submit {
+  margin: 13px 0 0;
+}
+
+.qodef-admin-notice .qodef-btn {
+  position: relative;
+  vertical-align: middle;
+  width: auto;
+  margin: 0;
+  font-family: 'Heebo', sans-serif;
+  font-size: 12px;
+  line-height: 2em;
+  font-weight: 500;
+  text-transform: uppercase;
+  border-radius: 30px;
+  letter-spacing: 0.13em;
+  outline: none;
+  box-sizing: border-box;
+  transition: color .2s ease-in-out, background-color .2s ease-in-out, border-color .2s ease-in-out;
+  cursor: pointer;
+  text-decoration: none;
+  box-shadow: none;
+  display: inline-block;
+  padding: 9px 30px;
+}
+
+.qodef-admin-notice .qodef-btn.qodef-statistics--allowed {
+  margin-right: 12px;
+}
+
+.qodef-admin-notice .qodef-btn-solid {
+  color: #fff;
+  background-color: #ee2852;
+  border: 1px solid transparent;
+}
+
+.qodef-admin-notice .qodef-btn-solid:hover {
+  color: #fff;
+  background-color: #fd315c;
+}
+
+.qodef-admin-notice .qodef-btn-outlined {
+  color: #000000;
+  background-color: transparent;
+  border: 1px solid #dedee1;
+}
+
+.qodef-admin-notice .qodef-btn-outlined:hover {
+  color: #000000;
+  background-color: #fff;
+  border-color: #b7b7b7;
+}
+
+.qodef-admin-notice .qodef-admin-notice-dismiss {
+  position: absolute;
+  right: 18px;
+  top: 16px;
+}
+
+.qodef-admin-notice .notice-dismiss {
+  top: 14px;
+  right: 14px;
+  padding: 0;
+  opacity: 0;
+}

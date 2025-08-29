@@ -1,0 +1,342 @@
+@font-face {
+	font-family: 'Roboto';
+	src: url("/wp-content/plugins/qi-addons-for-elementor/inc/admin/inc/admin-pages/assets/fonts/Roboto-Regular.ttf") format("truetype");
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: 'Heebo';
+	src: url("/wp-content/plugins/qi-addons-for-elementor/inc/admin/inc/admin-pages/assets/fonts/Heebo-Regular.ttf") format("truetype");
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: 'Heebo';
+	src: url("/wp-content/plugins/qi-addons-for-elementor/inc/admin/inc/admin-pages/assets/fonts/Heebo-Medium.ttf") format("truetype");
+	font-weight: 500;
+}
+
+@font-face {
+	font-family: 'DM Sans';
+	src: url("/wp-content/plugins/qi-addons-for-elementor/inc/admin/inc/admin-pages/assets/fonts/DMSans-Regular.ttf") format("truetype");
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: 'DM Sans';
+	src: url("/wp-content/plugins/qi-addons-for-elementor/inc/admin/inc/admin-pages/assets/fonts/DMSans-SemiBold.ttf") format("truetype");
+	font-weight: 600;
+}
+
+@font-face {
+	font-family: 'DM Sans';
+	src: url("/wp-content/plugins/qi-addons-for-elementor/inc/admin/inc/admin-pages/assets/fonts/DMSans-Bold.ttf") format("truetype");
+	font-weight: 700;
+}
+
+.qodef-admin-notice p,
+.qodef-admin-review-notice p,
+#qi-addons-for-elementor-deactivation-modal p {
+	margin: 0;
+	padding: 0;
+	font-family: 'DM Sans', sans-serif;
+	font-size: 14px;
+	line-height: 1.43em;
+	font-weight: 400;
+}
+
+.qodef-admin-notice .qodef-btn,
+.qodef-admin-review-notice .qodef-btn,
+#qi-addons-for-elementor-deactivation-modal .qodef-btn {
+	position: relative;
+	vertical-align: middle;
+	width: auto;
+	margin: 0;
+	font-family: 'DM Sans', sans-serif;
+	font-size: 13px;
+	line-height: 2em;
+	font-weight: 700;
+	text-transform: uppercase;
+	border-radius: 5px;
+	letter-spacing: 0.02em;
+	outline: none;
+	box-sizing: border-box;
+	transition: color .2s ease-in-out, background-color .2s ease-in-out, border-color .2s ease-in-out;
+	cursor: pointer;
+	text-decoration: none;
+	box-shadow: none;
+	display: inline-block;
+	padding: 8px 20px;
+}
+
+.qodef-admin-notice .qodef-btn.qodef-btn-solid,
+.qodef-admin-review-notice .qodef-btn.qodef-btn-solid,
+#qi-addons-for-elementor-deactivation-modal .qodef-btn.qodef-btn-solid {
+	color: #fff;
+	background-color: #ee2852;
+	border: 1px solid transparent;
+}
+
+.qodef-admin-notice .qodef-btn.qodef-btn-solid:hover,
+.qodef-admin-review-notice .qodef-btn.qodef-btn-solid:hover,
+#qi-addons-for-elementor-deactivation-modal .qodef-btn.qodef-btn-solid:hover {
+	color: #fff;
+	background-color: #fd315c;
+}
+
+.qodef-admin-notice .qodef-btn.qodef-btn-outlined,
+.qodef-admin-review-notice .qodef-btn.qodef-btn-outlined,
+#qi-addons-for-elementor-deactivation-modal .qodef-btn.qodef-btn-outlined {
+	color: #000000;
+	background-color: transparent;
+	border: 1px solid #dedee1;
+}
+
+.qodef-admin-notice .qodef-btn.qodef-btn-outlined:hover,
+.qodef-admin-review-notice .qodef-btn.qodef-btn-outlined:hover,
+#qi-addons-for-elementor-deactivation-modal .qodef-btn.qodef-btn-outlined:hover {
+	color: #000000;
+	background-color: #fff;
+	border-color: #b7b7b7;
+}
+
+.qodef-admin-notice .qodef-btn.qodef-btn-simple,
+.qodef-admin-review-notice .qodef-btn.qodef-btn-simple,
+#qi-addons-for-elementor-deactivation-modal .qodef-btn.qodef-btn-simple {
+	padding: 0 20px 0 0 !important;
+	background-color: transparent !important;
+	border: none !important;
+	color: #000 !important;
+	background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxNi4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB3aWR0aD0iMTJweCIgaGVpZ2h0PSI3cHgiIHZpZXdCb3g9IjAgMCAxMiA3IiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCAxMiA3IiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxnPg0KCTxwYXRoIGQ9Ik0wLjUsMy4wMDVoOS43ODFMOC4xNTYsMC44N0M3LjkwNiwwLjY0NCw3LjksMC40MTIsOC4xNDEsMC4xNzRDOC4zOC0wLjA2Myw4LjYxNC0wLjA1OCw4Ljg0NCwwLjE4OWwzLDIuOTcNCgkJYzAuMDYzLDAuMDQyLDAuMTA0LDAuMDkzLDAuMTI1LDAuMTU1QzExLjk4OSwzLjM3NiwxMiwzLjQzOCwxMiwzLjVzLTAuMDExLDAuMTI0LTAuMDMxLDAuMTg2DQoJCWMtMC4wMjEsMC4wNjItMC4wNjMsMC4xMTQtMC4xMjUsMC4xNTVsLTMsMi45N0M4LjYxNCw3LjA1OCw4LjM4LDcuMDYzLDguMTQxLDYuODI2QzcuOSw2LjU4OSw3LjkwNiw2LjM1Nyw4LjE1Niw2LjEzbDIuMTI1LTIuMTM1DQoJCUgwLjVjLTAuMTQ2LDAtMC4yNjYtMC4wNDYtMC4zNTktMC4xMzlTMCwzLjY0NSwwLDMuNWMwLTAuMTQ0LDAtMC4yMTcsMC0wLjIxN3MwLjA0Ny0wLjA0NiwwLjE0MS0wLjEzOVMwLjM1NCwzLjAwNSwwLjUsMy4wMDV6Ii8+DQo8L2c+DQo8L3N2Zz4NCg==);
+	background-repeat: no-repeat;
+	background-position: top 17px right;
+	display: inline-block;
+	width: auto;
+}
+
+.qodef-admin-notice .qodef-btn.qodef-btn-simple:hover,
+.qodef-admin-review-notice .qodef-btn.qodef-btn-simple:hover,
+#qi-addons-for-elementor-deactivation-modal .qodef-btn.qodef-btn-simple:hover {
+	color: #ee2852;
+	filter: invert(32%) sepia(71%) saturate(7487%) hue-rotate(336deg) brightness(100%) contrast(87%);
+}
+
+.qodef-admin-notice .qodef-btn.qodef--processing, .qodef-admin-notice .qodef-btn.qodef--disabled,
+.qodef-admin-review-notice .qodef-btn.qodef--processing,
+.qodef-admin-review-notice .qodef-btn.qodef--disabled,
+#qi-addons-for-elementor-deactivation-modal .qodef-btn.qodef--processing,
+#qi-addons-for-elementor-deactivation-modal .qodef-btn.qodef--disabled {
+	pointer-events: none;
+}
+
+.qodef-admin-notice,
+.qodef-admin-review-notice {
+	position: relative;
+	background-color: #fff;
+	padding: 0;
+	border: none;
+	border-radius: 5px;
+	box-shadow: 0 0 6px rgba(0, 0, 0, 0.06);
+}
+
+.qodef-admin-notice .qodef-admin-notice-inner,
+.qodef-admin-review-notice .qodef-admin-notice-inner {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	gap: 75px;
+	padding: 40px 5px 34px 25px;
+}
+
+.qodef-admin-notice .qodef-admin-notice-inner .qodef-admin-notice-right-holder,
+.qodef-admin-review-notice .qodef-admin-notice-inner .qodef-admin-notice-right-holder {
+	flex-shrink: 0;
+}
+
+@media only screen and (max-width: 1440px) {
+	.qodef-admin-notice .qodef-admin-notice-inner,
+	.qodef-admin-review-notice .qodef-admin-notice-inner {
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 25px;
+	}
+}
+
+.qodef-admin-notice .qodef-admin-notice-title,
+.qodef-admin-review-notice .qodef-admin-notice-title {
+	margin: 0 0 10px;
+	font-family: 'DM Sans', Sans-serif;
+	font-size: 18px;
+	font-weight: 600;
+	color: #000;
+}
+
+.qodef-admin-notice .qodef-admin-notice-description,
+.qodef-admin-review-notice .qodef-admin-notice-description {
+	font-family: 'DM Sans', sans-serif;
+	font-size: 15px;
+	line-height: 1.6em;
+}
+
+.qodef-admin-notice .qodef-admin-notice-submit,
+.qodef-admin-review-notice .qodef-admin-notice-submit {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	gap: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+	.qodef-admin-notice .qodef-admin-notice-submit,
+	.qodef-admin-review-notice .qodef-admin-notice-submit {
+		flex-direction: column;
+	}
+}
+
+.qodef-admin-notice .qodef-btn.qodef-statistics--allowed,
+.qodef-admin-review-notice .qodef-btn.qodef-statistics--allowed {
+	margin-right: 12px;
+}
+
+.qodef-admin-notice .qodef-admin-notice-dismiss,
+.qodef-admin-review-notice .qodef-admin-notice-dismiss {
+	position: absolute;
+	right: 20px;
+	top: 18px;
+}
+
+.qodef-admin-notice .notice-dismiss,
+.qodef-admin-review-notice .notice-dismiss {
+	top: 16px;
+	right: 16px;
+	padding: 0;
+	opacity: 0;
+}
+
+.qodef-admin-review-notice {
+	margin-top: 15px;
+}
+
+@media only screen and (max-width: 768px) {
+	.qodef-admin-review-notice.notice.is-dismissible {
+		padding-right: 0;
+	}
+}
+
+#qi-addons-for-elementor-deactivation-modal {
+	display: none;
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.15);
+	z-index: 9999;
+}
+
+.admin-bar #qi-addons-for-elementor-deactivation-modal {
+	height: calc(100vh - 32px);
+}
+
+#qi-addons-for-elementor-deactivation-modal .qodef-deactivation-modal-inner {
+	display: flex;
+	height: 100%;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+}
+
+#qi-addons-for-elementor-deactivation-modal .qodef-deactivation-modal-content {
+	width: 620px;
+	background-color: #fff;
+	padding: 34px 40px 44px;
+	box-sizing: border-box;
+	position: relative;
+}
+
+#qi-addons-for-elementor-deactivation-modal .qodef-deactivation-modal-content .qodef-deactivation-modal-close {
+	position: absolute;
+	right: 19px;
+	top: 16px;
+	cursor: pointer;
+}
+
+#qi-addons-for-elementor-deactivation-modal .qodef-deactivation-modal-content .qodef-deactivation-modal-title {
+	font-family: 'DM Sans', sans-serif;
+	font-size: 32px;
+	line-height: 1.25em;
+	font-weight: 600;
+	margin: 0 0 19px;
+}
+
+#qi-addons-for-elementor-deactivation-modal .qodef-deactivation-modal-content .qodef-deactivation-modal-form-caption {
+	margin: 0 0 14px;
+	padding-right: 25%;
+}
+
+#qi-addons-for-elementor-deactivation-modal .qodef-deactivation-modal-content .qodef-deactivation-modal-form-options {
+	padding-right: 23%;
+}
+
+#qi-addons-for-elementor-deactivation-modal .qodef-deactivation-modal-content .qodef-deactivation-modal-form-options .qodef-deactivation-modal-form-option {
+	margin: 0 0 6px;
+}
+
+#qi-addons-for-elementor-deactivation-modal .qodef-deactivation-modal-content .qodef-deactivation-modal-form-options .qodef-deactivation-modal-form-option .qodef-deactivation-modal-form-option-input {
+	float: left;
+	margin: 3px 9px 0 0;
+	box-shadow: none;
+	border-color: #bebebe;
+}
+
+#qi-addons-for-elementor-deactivation-modal .qodef-deactivation-modal-content .qodef-deactivation-modal-form-options .qodef-deactivation-modal-form-option .qodef-deactivation-modal-form-option-input:focus, #qi-addons-for-elementor-deactivation-modal .qodef-deactivation-modal-content .qodef-deactivation-modal-form-options .qodef-deactivation-modal-form-option .qodef-deactivation-modal-form-option-input:checked {
+	border-color: #ee2852;
+	box-shadow: none;
+	outline: none;
+}
+
+#qi-addons-for-elementor-deactivation-modal .qodef-deactivation-modal-content .qodef-deactivation-modal-form-options .qodef-deactivation-modal-form-option .qodef-deactivation-modal-form-option-input:focus:before, #qi-addons-for-elementor-deactivation-modal .qodef-deactivation-modal-content .qodef-deactivation-modal-form-options .qodef-deactivation-modal-form-option .qodef-deactivation-modal-form-option-input:checked:before {
+	background-color: #ee2852;
+}
+
+#qi-addons-for-elementor-deactivation-modal .qodef-deactivation-modal-content .qodef-deactivation-modal-form-options .qodef-deactivation-modal-form-option .qodef-deactivation-modal-form-option-input:not(:checked) ~ .qodef-deactivation-modal-form-option-text {
+	display: none;
+}
+
+#qi-addons-for-elementor-deactivation-modal .qodef-deactivation-modal-content .qodef-deactivation-modal-form-options .qodef-deactivation-modal-form-option .qodef-deactivation-modal-form-option-label {
+	display: block;
+	font-family: 'DM Sans', sans-serif;
+	font-size: 15px;
+	line-height: 1.6em;
+}
+
+#qi-addons-for-elementor-deactivation-modal .qodef-deactivation-modal-content .qodef-deactivation-modal-form-options .qodef-deactivation-modal-form-option .qodef-deactivation-modal-form-option-text {
+	margin: 6px 0 10px 26px;
+	width: calc(100% - 32px);
+	font-family: 'DM Sans', sans-serif;
+	color: #696969;
+	font-size: 13px;
+	border-radius: 5em;
+	border: 1px solid #dedee1;
+	padding: 11px 24px;
+}
+
+#qi-addons-for-elementor-deactivation-modal .qodef-deactivation-modal-content .qodef-deactivation-modal-form-options .qodef-deactivation-modal-form-option .qodef-deactivation-modal-form-option-text:focus {
+	box-shadow: none;
+	outline: none;
+}
+
+#qi-addons-for-elementor-deactivation-modal .qodef-deactivation-modal-content .qodef-deactivation-modal-form-options .qodef-deactivation-modal-form-option div.qodef-deactivation-modal-form-option-text {
+	border-radius: 0;
+	border: none;
+	padding: 0;
+	color: #ee2852;
+	margin: 4px 0 11px 26px;
+}
+
+#qi-addons-for-elementor-deactivation-modal .qodef-deactivation-modal-content .qodef-deactivation-modal-form-buttons {
+	display: flex;
+	justify-content: space-between;
+	margin: 19px 0 0;
+}

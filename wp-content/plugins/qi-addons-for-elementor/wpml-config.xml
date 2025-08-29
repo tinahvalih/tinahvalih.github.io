@@ -1,0 +1,492 @@
+<wpml-config>
+    <elementor-widgets>
+        <widget name="qi_addons_for_elementor_button">
+            <fields>
+                <field>button_text</field>
+                <field>button_link>url</field>
+            </fields>
+        </widget>
+        <widget name="qi_addons_for_elementor_info_button">
+            <fields>
+                <field>info_button_text</field>
+                <field>info_button_subtext</field>
+                <field>info_button_link>url</field>
+            </fields>
+        </widget>
+        <widget name="qi_addons_for_elementor_blog_list">
+            <fields>
+                <field>slider_speed</field>
+                <field>slider_speed_animation</field>
+                <field>posts_per_page</field>
+                <field>post_ids</field>
+                <field>tax_slug</field>
+                <field>tax__in</field>
+                <field>author_slug</field>
+                <field>excerpt_length</field>
+                <field>read_more_text</field>
+            </fields>
+        </widget>
+        <widget name="qi_addons_for_elementor_blog_slider">
+            <fields>
+                <field>slider_speed</field>
+                <field>slider_speed_animation</field>
+                <field>posts_per_page</field>
+                <field>post_ids</field>
+                <field>tax_slug</field>
+                <field>tax__in</field>
+                <field>author_slug</field>
+                <field>excerpt_length</field>
+                <field>read_more_text</field>
+            </fields>
+        </widget>
+        <widget name="qi_addons_for_elementor_add_to_cart_button">
+            <fields>
+                <field>product_id</field>
+            </fields>
+        </widget>
+        <widget name="qi_addons_for_elementor_product_category_list">
+            <fields>
+                <field>slider_speed</field>
+                <field>slider_speed_animation</field>
+                <field>posts_per_page</field>
+                <field>taxonomy_ids</field>
+                <field>button_text</field>
+            </fields>
+        </widget>
+        <widget name="qi_addons_for_elementor_product_list">
+            <fields>
+                <field>slider_speed</field>
+                <field>slider_speed_animation</field>
+                <field>posts_per_page</field>
+                <field>post_ids</field>
+                <field>tax_slug</field>
+                <field>tax__in</field>
+                <field>author_slug</field>
+            </fields>
+        </widget>
+        <widget name="qi_addons_for_elementor_product_slider">
+            <fields>
+                <field>slider_speed</field>
+                <field>slider_speed_animation</field>
+                <field>posts_per_page</field>
+                <field>post_ids</field>
+                <field>tax_slug</field>
+                <field>tax__in</field>
+                <field>author_slug</field>
+            </fields>
+        </widget>
+        <widget name="qi_addons_for_elementor_accordion">
+            <fields-in-item items_of="children">
+                <field>item_title</field>
+                <field>item_content</field>
+            </fields-in-item>
+        </widget>
+        <widget name="qi_addons_for_elementor_animated_text">
+            <fields>
+                <field>title</field>
+            </fields>
+        </widget>
+        <widget name="qi_addons_for_elementor_banner">
+            <fields>
+                <field>link_url>url</field>
+                <field>title</field>
+                <field>subtitle</field>
+                <field>text_field</field>
+                <field>button_text</field>
+            </fields>
+        </widget>
+        <widget name="qi_addons_for_elementor_before_after">
+            <fields>
+                <field>handle_text</field>
+                <field>offset</field>
+            </fields>
+        </widget>
+        <widget name="qi_addons_for_elementor_blockquote">
+            <fields>
+                <field>text</field>
+            </fields>
+        </widget>
+        <widget name="qi_addons_for_elementor_business_hours">
+            <fields>
+                <field>subtitle</field>
+                <field>title</field>
+                <field>text</field>
+            </fields>
+            <fields-in-item items_of="children">
+                <field>item_day_text</field>
+                <field>item_hours_text</field>
+            </fields-in-item>
+        </widget>
+        <widget name="qi_addons_for_elementor_call_to_action">
+            <fields>
+                <field>title</field>
+                <field>text</field>
+                <field>button_text</field>
+                <field>button_link>url</field>
+            </fields>
+        </widget>
+        <widget name="qi_addons_for_elementor_cards_gallery">
+            <fields-in-item items_of="children">
+                <field type="Cards Gallery: url" key_of="item_link">url</field>
+            </fields-in-item>
+        </widget>
+        <widget name="qi_addons_for_elementor_cards_slider">
+            <fields-in-item items_of="children">
+                <field type="Cards Slider: url" key_of="item_link">url</field>
+            </fields-in-item>
+        </widget>
+        <widget name="qi_addons_for_elementor_charts">
+            <fields>
+                <field>title</field>
+                <field>text</field>
+            </fields>
+            <fields-in-item items_of="children">
+                <field>item_data_label</field>
+            </fields-in-item>
+        </widget>
+        <widget name="qi_addons_for_elementor_clients_list">
+            <fields>
+                <field>slider_speed</field>
+                <field>slider_speed_animation</field>
+            </fields>
+            <fields-in-item items_of="children">
+                <field type="Client's list: title">client_title</field>
+                <field type="Client's list: Description">client_text</field>
+                <field type="Client's list: url" key_of="client_link">url</field>
+            </fields-in-item>
+        </widget>
+        <widget name="qi_addons_for_elementor_clients_slider">
+            <fields>
+                <field>slider_speed</field>
+                <field>slider_speed_animation</field>
+            </fields>
+            <fields-in-item items_of="children">
+                <field type="Client's slider: title">client_title</field>
+                <field type="Client's slider: url" key_of="client_link">url</field>
+            </fields-in-item>
+        </widget>
+        <widget name="qi_addons_for_elementor_countdown">
+            <fields>
+                <field>month_label</field>
+                <field>day_label</field>
+                <field>hour_label</field>
+                <field>minute_label</field>
+                <field>second_label</field>
+                <field>month_label_plural</field>
+                <field>day_label_plural</field>
+                <field>hour_label_plural</field>
+                <field>minute_label_plural</field>
+                <field>second_label_plural</field>
+            </fields>
+        </widget>
+        <widget name="qi_addons_for_elementor_counter">
+            <fields>
+                <field>step_delay</field>
+                <field>digit_label</field>
+                <field>title</field>
+                <field>text</field>
+            </fields>
+        </widget>
+        <widget name="qi_addons_for_elementor_device_carousel">
+            <fields>
+                <field>slider_speed</field>
+                <field>slider_speed_animation</field>
+            </fields>
+        </widget>
+        <widget name="qi_addons_for_elementor_device_slider">
+            <fields>
+                <field>slider_speed</field>
+                <field>slider_speed_animation</field>
+                <field>custom_links</field>
+            </fields>
+        </widget>
+        <widget name="qi_addons_for_elementor_dropcaps">
+            <fields>
+                <field>text</field>
+            </fields>
+        </widget>
+        <widget name="qi_addons_for_elementor_dual_image_with_content">
+            <fields>
+                <field>title</field>
+                <field>decoration_positions</field>
+                <field>color_positions</field>
+                <field>link_positions</field>
+                <field>text</field>
+                <field>link>url</field>
+            </fields>
+        </widget>
+        <widget name="qi_addons_for_elementor_faq">
+            <fields-in-item items_of="children">
+                <field>item_title</field>
+                <field>item_content</field>
+            </fields-in-item>
+        </widget>
+        <widget name="qi_addons_for_elementor_graphs">
+            <fields>
+                <field>data_labels</field>
+            </fields>
+            <fields-in-item items_of="children">
+                <field>item_dataset_values</field>
+                <field>item_dataset_labels</field>
+                <field>item_fill_area</field>
+            </fields-in-item>
+        </widget>
+        <widget name="qi_addons_for_elementor_highlight">
+            <fields>
+                <field>text</field>
+                <field>highlight_position</field>
+            </fields>
+        </widget>
+        <widget name="qi_addons_for_elementor_how_to">
+            <fields>
+                <field>title</field>
+                <field>subtitle</field>
+                <field>text</field>
+            </fields>
+            <fields-in-item items_of="children">
+                <field>item_title</field>
+                <field>item_content</field>
+            </fields-in-item>
+        </widget>
+        <widget name="qi_addons_for_elementor_icon_with_text">
+            <fields>
+                <field>title</field>
+                <field>text</field>
+                <field>link>url</field>
+                <field>button_text</field>
+                <field>button_link>url</field>
+            </fields>
+        </widget>
+        <widget name="qi_addons_for_elementor_image_gallery">
+            <fields>
+                <field>custom_links</field>
+                <field>slider_speed</field>
+                <field>slider_speed_animation</field>
+            </fields>
+        </widget>
+        <widget name="qi_addons_for_elementor_image_gallery_masonry">
+            <fields>
+                <field>slider_speed</field>
+                <field>slider_speed_animation</field>
+            </fields>
+        </widget>
+        <widget name="qi_addons_for_elementor_image_gallery_pinterest">
+            <fields>
+                <field>custom_links</field>
+                <field>slider_speed</field>
+                <field>slider_speed_animation</field>
+            </fields>
+        </widget>
+        <widget name="qi_addons_for_elementor_image_slider">
+            <fields>
+                <field>slider_speed</field>
+                <field>slider_speed_animation</field>
+                <field>custom_links</field>
+            </fields>
+        </widget>
+        <widget name="qi_addons_for_elementor_info_cards">
+            <fields>
+                <field>subtitle</field>
+                <field>title</field>
+                <field>text</field>
+                <field>button_text</field>
+                <field>link>url</field>
+            </fields>
+        </widget>
+        <widget name="qi_addons_for_elementor_interactive_banner">
+            <fields>
+                <field>title</field>
+                <field>subtitle</field>
+                <field>text_field</field>
+                <field>button_text</field>
+                <field>link_url>url</field>
+            </fields>
+            <fields-in-item items_of="children">
+                <field>item_title</field>
+                <field>item_description</field>
+            </fields-in-item>
+        </widget>
+        <widget name="qi_addons_for_elementor_interactive_link_showcase">
+            <fields>
+                <field>inline_separator</field>
+            </fields>
+            <fields-in-item items_of="children">
+                <field type="Interactive link showcase: title">item_title</field>
+                <field type="Interactive link showcase: text">item_text</field>
+                <field type="Interactive link showcase: url" key_of="item_link">url</field>
+            </fields-in-item>
+        </widget>
+        <widget name="qi_addons_for_elementor_item_showcase">
+            <fields-in-item items_of="children">
+                <field type="Item showcase: title">item_title</field>
+                <field type="Item showcase: text">item_text</field>
+                <field type="Item showcase: url" key_of="item_link">url</field>
+            </fields-in-item>
+        </widget>
+        <widget name="qi_addons_for_elementor_message_box">
+            <fields>
+                <field>title</field>
+                <field>text</field>
+            </fields>
+        </widget>
+        <widget name="qi_addons_for_elementor_preview_slider">
+            <fields>
+                <field>slider_speed</field>
+                <field>slider_speed_animation</field>
+            </fields>
+        </widget>
+        <widget name="qi_addons_for_elementor_pricing_list">
+            <fields>
+                <field>button_text</field>
+                <field>button_link>url</field>
+            </fields>
+            <fields-in-item items_of="children">
+                <field>item_title</field>
+                <field>item_description</field>
+                <field>item_price</field>
+                <field>item_discount_price</field>
+            </fields-in-item>
+        </widget>
+        <widget name="qi_addons_for_elementor_pricing_table">
+            <fields>
+                <field>title</field>
+                <field>currency</field>
+                <field>period</field>
+                <field>label</field>
+                <field>button_text</field>
+                <field>button_link>url</field>
+            </fields>
+            <fields-in-item items_of="children">
+                <field>item_text</field>
+            </fields-in-item>
+        </widget>
+        <widget name="qi_addons_for_elementor_process">
+            <fields>
+                <field>slider_speed</field>
+                <field>slider_speed_animation</field>
+            </fields>
+            <fields-in-item items_of="children">
+                <field>item_title</field>
+                <field>item_text</field>
+            </fields-in-item>
+        </widget>
+        <widget name="qi_addons_for_elementor_progress_bar_circle">
+            <fields>
+                <field>duration</field>
+                <field>title</field>
+                <field>text</field>
+            </fields>
+        </widget>
+        <widget name="qi_addons_for_elementor_progress_bar_horizontal">
+            <fields>
+                <field>duration</field>
+                <field>title</field>
+            </fields>
+        </widget>
+        <widget name="qi_addons_for_elementor_progress_bar_vertical">
+            <fields>
+                <field>duration</field>
+                <field>title</field>
+            </fields>
+        </widget>
+        <widget name="qi_addons_for_elementor_section_title">
+            <fields>
+                <field>title</field>
+                <field>subtitle</field>
+                <field>text</field>
+                <field>line_break_positions</field>
+                <field>decoration_positions</field>
+                <field>color_positions</field>
+                <field>link_positions</field>
+                <field>button_text</field>
+            </fields>
+        </widget>
+        <widget name="qi_addons_for_elementor_slider_switch">
+            <fields>
+                <field>slider_speed</field>
+                <field>slider_speed_animation</field>
+            </fields>
+            <fields-in-item items_of="children">
+                <field type="Slider switch: title">item_title</field>
+                <field type="Slider switch: text">item_text</field>
+                <field type="Slider switch: url" key_of="item_link">url</field>
+            </fields-in-item>
+        </widget>
+        <widget name="qi_addons_for_elementor_table_of_contents">
+            <fields>
+                <field>title</field>
+                <field>subtitle</field>
+                <field>text</field>
+                <field>excluded_tags</field>
+            </fields>
+        </widget>
+        <widget name="qi_addons_for_elementor_tabs_horizontal">
+            <fields-in-item items_of="children">
+                <field>item_title</field>
+                <field>item_content</field>
+            </fields-in-item>
+        </widget>
+        <widget name="qi_addons_for_elementor_tabs_vertical">
+            <fields-in-item items_of="children">
+                <field>item_title</field>
+                <field>item_content</field>
+            </fields-in-item>
+        </widget>
+        <widget name="qi_addons_for_elementor_team_member">
+            <fields>
+                <field>name</field>
+                <field>role</field>
+                <field>info_on_hover_inset_text</field>
+            </fields>
+            <fields-in-item items_of="children">
+                <field type="Team member: url" key_of="link">url</field>
+            </fields-in-item>
+        </widget>
+        <widget name="qi_addons_for_elementor_testimonials_list">
+            <fields>
+                <field>slider_speed</field>
+                <field>slider_speed_animation</field>
+            </fields>
+            <fields-in-item items_of="children">
+                <field>item_title</field>
+                <field>item_text</field>
+                <field>item_author</field>
+                <field>item_author_occupation</field>
+            </fields-in-item>
+        </widget>
+        <widget name="qi_addons_for_elementor_testimonials_slider">
+            <fields>
+                <field>slider_speed</field>
+                <field>slider_speed_animation</field>
+            </fields>
+            <fields-in-item items_of="children">
+                <field>item_title</field>
+                <field>item_text</field>
+                <field>item_author</field>
+                <field>item_author_occupation</field>
+            </fields-in-item>
+        </widget>
+        <widget name="qi_addons_for_elementor_text_marquee">
+            <fields-in-item items_of="children">
+                <field>item_text</field>
+            </fields-in-item>
+        </widget>
+        <widget name="qi_addons_for_elementor_timeline">
+            <fields-in-item items_of="children">
+                <field type="Timeline: title">title</field>
+                <field type="Timeline: date">date</field>
+                <field type="Timeline: text">text</field>
+                <field type="Timeline: url" key_of="link">url</field>
+            </fields-in-item>
+        </widget>
+        <widget name="qi_addons_for_elementor_typeout_text">
+            <fields>
+                <field>text</field>
+                <field>cursor</field>
+            </fields>
+            <fields-in-item items_of="children">
+                <field>typeout</field>
+            </fields-in-item>
+        </widget>
+    </elementor-widgets>
+</wpml-config>
